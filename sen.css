@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;  
+    background: #1d29a3;
+    background: radial-gradient(circle, rgba(29, 41, 163, 1) 0%, rgba(183, 192, 237, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;  
+}
+img{
+    height: 472px;
+    width: 334px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.atividade{
+    width: 350px;
+    text-align: center;
+}
+
+.atividade img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.atividade p{
+    font-weight: bold;
+}
