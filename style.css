@@ -87,18 +87,6 @@ main {
 padding: 10px;
 }
 
-.esquerda,
-.direita {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-
-    font-size: 45px;
-    color: white;
-    cursor: pointer;
-    z-index: 10;
-    user-select: none;
-}
 
 
 .center img {
