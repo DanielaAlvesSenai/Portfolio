@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Athena</title>
+    <link rel="stylesheet" href="cslogo.css">
+</head>
+
+<body>
+
+    <div class="center">
+        <h1>Cadastro</h1>
+
+        <form onsubmit="cadastrarUsuario(); return false;">
+
+            <div class="txt_field">
+                <input type="text" id="nome" required>
+                <label>Nome</label>
+            </div>
+
+            <div class="txt_field">
+                <input type="email" id="email" required>
+                <label>E-mail</label>
+            </div>
+
+            <div class="txt_field">
+                <input type="password" id="senha" minlength="6" required>
+                <label>Senha (mínimo 6 caracteres)</label>
+            </div>
+
+            <div class="botoes">
+                <input type="submit" value="Cadastrar" class="btn-conectar">
+
+                <input
+                    type="button"
+                    value="Voltar"
+                    class="btn-cancelar"
+                    onclick="window.location.href='./log.html'"
+                >
+            </div>
+
+        </form>
+    </div>
+
+<script type="module" src="cadastro.js"></script>
+</body>
+</html>
