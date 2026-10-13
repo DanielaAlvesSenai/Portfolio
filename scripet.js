@@ -11,6 +11,8 @@ async function logar() {
         email: email,
         password: senha
     });
+        window.location.href = "./inicio.html";
+
 
     if (error) {
         alert("Erro do Supabase: " + error.message);
@@ -20,7 +22,7 @@ async function logar() {
 
     alert("Login realizado com sucesso!");
 
-    window.location.href = "./index.html";
+    window.location.href = "./inicio.html";
 }
 
 window.logar = logar;
