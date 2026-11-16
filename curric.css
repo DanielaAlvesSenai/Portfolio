@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    padding: 30px 15px;
+}
+
+.curriculo {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    min-height: 950px;
+    margin: auto;
+    padding: 45px 50px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #777;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+
+.nome h1 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.nome p {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.contato {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.contato p {
+    margin-bottom: 8px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-bottom: 7px;
+    color: #111;
+}
+
+section p,
+section li {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+ul {
+    padding-left: 18px;
+}
+
+.formacao {
+    margin-top: 25px;
+}
+
+.formacao p {
+    margin-bottom: 3px;
+}
+
+.habilidades {
+    margin-top: 65px;
+    padding-left: 8px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .curriculo {
+        padding: 30px 22px;
+    }
+
+    .cabecalho {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .nome h1 {
+        font-size: 25px;
+    }
+
+    .habilidades {
+        margin-top: 40px;
+    }
+}
